@@ -1,0 +1,52 @@
+Models
+- Undeterministic
+  > Probablistic Model
+        Assessement of the probability
+  > Price / Demand Model 
+        Price go down , demand go up
+        What to order 
+        How much to order 
+        When to order
+        
+- Deterministic
+    > EOQ - Economic Order Quantity ( Only Theory / Practically Useless)
+        - Fixed Consumption Rate
+        - No Volume Discount on Purchase
+        - Ordering Cost Independent of Quantity
+        - Balance Ordering Cost vs Cost of Inventory Storage
+        - Infinite Shelf Life
+
+        - Limitations 
+            - Assumptions of EOQ  
+                - Uniform Consumption Rate  
+                - Completely Predictable Supply Lead Time
+                - Precise Determination of Ordering Cost, 
+                    Inventory Carrying Cost & Backorder cost.
+                - No Minimum Order Qty / Multiples of ordering Lots 
+                - Infinite Shelf Life
+            - These assumptions have made EOQ a theoretical model.
+            - What is the use of learning this model ? Insights ? 
+
+    > Order Quantity Dependent Purchase Cost ( Price Breaks)
+
+- Excel Add on - Solver
+
+- Multi Period Models 
+
+- Fixed Period Review P System 
+    - Review Period 
+        - Higher the period , higher the stocks
+        - Lower the period , more frequent ordering
+        - Should be more than supply lead time.
+    - Safety Stock
+-       - To take care of variations in demand  
+        - Max Possible Demand during review period  
+          less average demand during review period.
+        - A function of % confidence or Service Level.
+
+(Very Imp) Stock out vs adding additional item 
+
+Continous Review / Fixed Quantity Q System 
+
+------------------------------------------------------
+
